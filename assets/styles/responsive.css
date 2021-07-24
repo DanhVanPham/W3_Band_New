@@ -1,0 +1,106 @@
+@media (min-width: 1024px) {}
+
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+    .form-control {
+        padding: 15px;
+    }
+    #footer .social-list {
+        font-size: 48px;
+    }
+    #footer .social-list a {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 739px) {
+    #nav {
+        display: block;
+        width: 100%;
+    }
+    #nav>li:not(:first-child) {
+        display: block;
+        width: 100%;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .header-search {
+        display: none;
+    }
+    #header .mobile-menu {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav li a {
+        color: #fff;
+        padding: 1px 41px;
+    }
+}
+
+@media (max-width: 550px) {
+    .mobile-menu {
+        font-size: 16px;
+    }
+    .text-content {
+        display: none;
+    }
+    .about-members {
+        grid-template-columns: 1fr;
+        margin-bottom: 0;
+        padding: 32px 0;
+    }
+    .section-slogan {
+        font-size: 15px;
+    }
+    .place-list {
+        grid-template-columns: 1fr;
+    }
+    .place-info .place-heading {
+        font-size: 18px;
+    }
+    .contact-info {
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+    .contact-list {
+        margin-bottom: 16px;
+    }
+    .form-controls {
+        grid-template-areas: 'control-name control-name' 'control-mail control-mail' 'control-message control-message' 'control-submit control-submit';
+    }
+    .full-width {
+        width: 100%;
+    }
+    #footer .footer-copy-right {
+        font-size: 15px;
+    }
+    .modal-header {
+        font-size: 20px;
+        height: 80px;
+    }
+    .btn-modal {
+        font-size: 14px;
+    }
+    .h-55 {
+        height: 40px;
+    }
+    .modal-submit--close {
+        font-size: 10px;
+    }
+    .modal-submit-icon {
+        font-size: 12px !important;
+    }
+    .modal-close {
+        width: 34px;
+        height: 34px;
+    }
+}
